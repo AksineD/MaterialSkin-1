@@ -144,11 +144,11 @@ namespace MaterialSkinExample
         {
             var builder = new StringBuilder("Batch operation report:\n\n");
             var random = new Random();
-            var result = 0;
+            //int result = 0;
 
             for (int i = 0; i < 200; i++)
             {
-                result = random.Next(1000);
+                int result = random.Next(1000);
 
                 if (result < 950)
                 {
