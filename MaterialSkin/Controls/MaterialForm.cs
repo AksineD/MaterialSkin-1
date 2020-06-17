@@ -1,15 +1,15 @@
-﻿using MaterialSkin.Animations;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Drawing.Text;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
-
-namespace MaterialSkin.Controls
+﻿namespace MaterialSkin.Controls
 {
+    using MaterialSkin.Animations;
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel;
+    using System.Drawing;
+    using System.Drawing.Text;
+    using System.Linq;
+    using System.Runtime.InteropServices;
+    using System.Windows.Forms;
+
     public class MaterialForm : Form, IMaterialControl
     {
         [Browsable(false)]

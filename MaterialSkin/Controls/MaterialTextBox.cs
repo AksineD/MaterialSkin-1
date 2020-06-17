@@ -1,11 +1,12 @@
-﻿using MaterialSkin.Animations;
-using System;
-using System.ComponentModel;
-using System.Drawing;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
-namespace MaterialSkin.Controls
+﻿namespace MaterialSkin.Controls
 {
+    using MaterialSkin.Animations;
+    using System;
+    using System.ComponentModel;
+    using System.Drawing;
+    using System.Runtime.InteropServices;
+    using System.Windows.Forms;
+
     public class MaterialTextBox : RichTextBox, IMaterialControl
     {
         //Properties for managing the material design properties

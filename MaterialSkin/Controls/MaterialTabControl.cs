@@ -1,9 +1,9 @@
-﻿using System;
-using System.ComponentModel;
-using System.Windows.Forms;
-
-namespace MaterialSkin.Controls
+﻿namespace MaterialSkin.Controls
 {
+    using System;
+    using System.ComponentModel;
+    using System.Windows.Forms;
+
     public class MaterialTabControl : TabControl, IMaterialControl
     {
         [Browsable(false)]

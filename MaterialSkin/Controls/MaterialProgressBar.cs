@@ -1,8 +1,8 @@
-﻿using System.ComponentModel;
-using System.Windows.Forms;
-
-namespace MaterialSkin.Controls
+﻿namespace MaterialSkin.Controls
 {
+    using System.ComponentModel;
+    using System.Windows.Forms;
+
     public class MaterialProgressBar : ProgressBar, IMaterialControl
     {
         public MaterialProgressBar()

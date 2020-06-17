@@ -62,8 +62,10 @@
     //Color constants
     public enum TextShade
     {
-        WHITE = 0xFFFFFF,
-        BLACK = 0x212121
+        WHITE       = 0xFFFFFF,
+        BLACK       = 0x212121,
+        BLUE        = 0x3250F0,
+        ORANGE      = 0xFF9900
     }
 
     public enum Primary

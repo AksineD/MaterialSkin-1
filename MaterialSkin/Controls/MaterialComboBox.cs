@@ -1,12 +1,13 @@
-﻿using MaterialSkin.Animations;
-using System;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
-using System.Windows.Forms;
-
-namespace MaterialSkin.Controls
+﻿namespace MaterialSkin.Controls
 {
+    using MaterialSkin.Animations;
+    using System;
+    using System.ComponentModel;
+    using System.Drawing;
+    using System.IO;
+    using System.Linq;
+    using System.Windows.Forms;
+
     public class MaterialComboBox : ComboBox, IMaterialControl
     {
         // For some reason, even when overriding the AutoSize property, it doesn't appear on the properties panel, so we have to create a new one.
@@ -263,7 +264,7 @@ namespace MaterialSkin.Controls
                 g.FillRectangle(SkinManager.BackgroundHoverBrush, e.Bounds);
             }
             
-            string Text = "";
+            string Text;
             if (!string.IsNullOrWhiteSpace(DisplayMember))
             {
                 Text = Items[e.Index].GetType().GetProperty(DisplayMember).GetValue(Items[e.Index], null).ToString();
@@ -273,16 +274,24 @@ namespace MaterialSkin.Controls
                 Text = Items[e.Index].ToString();
             }
 
-            using (NativeTextRenderer NativeText = new NativeTextRenderer(g))
-            {
-                NativeText.DrawTransparentText(
-                Text,
-                SkinManager.getFontByType(MaterialSkinManager.fontType.Subtitle1),
-                SkinManager.TextHighEmphasisColor,
-                new Point(e.Bounds.Location.X + SkinManager.FORM_PADDING, e.Bounds.Location.Y),
-                new Size(e.Bounds.Size.Width - SkinManager.FORM_PADDING * 2, e.Bounds.Size.Height),
-                NativeTextRenderer.TextAlignFlags.Left | NativeTextRenderer.TextAlignFlags.Middle); ;
-            }
+            // hover item text visual bug fixed 
+            TextRenderer.DrawText(g, Text,
+                 SkinManager.getFontByType(MaterialSkinManager.fontType.Subtitle1),
+                 new Point(e.Bounds.Location.X + SkinManager.FORM_PADDING, e.Bounds.Location.Y),
+                 SkinManager.TextHighEmphasisColor,
+                 TextFormatFlags.Left);
+           
+            //using (NativeTextRenderer NativeText = new NativeTextRenderer(g))
+            //{
+
+            //    NativeText.DrawTransparentText(
+            //    Text,
+            //    SkinManager.getFontByType(MaterialSkinManager.fontType.Subtitle1),
+            //    SkinManager.TextHighEmphasisColor,
+            //    new Point(e.Bounds.Location.X + SkinManager.FORM_PADDING, e.Bounds.Location.Y),
+            //    new Size(e.Bounds.Size.Width - SkinManager.FORM_PADDING * 2, e.Bounds.Size.Height),
+            //    NativeTextRenderer.TextAlignFlags.Left | NativeTextRenderer.TextAlignFlags.Middle);
+            //}
         }
 
         protected override void OnCreateControl()

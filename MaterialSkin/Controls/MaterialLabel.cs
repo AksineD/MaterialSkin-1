@@ -1,9 +1,9 @@
-﻿using System.ComponentModel;
-using System.Drawing;
-using System.Windows.Forms;
-
-namespace MaterialSkin.Controls
+﻿namespace MaterialSkin.Controls
 {
+    using System.ComponentModel;
+    using System.Drawing;
+    using System.Windows.Forms;
+
     public class MaterialLabel : Label, IMaterialControl
     {
         [Browsable(false)]

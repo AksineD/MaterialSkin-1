@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace MaterialSkin.Animations
+﻿namespace MaterialSkin.Animations
 {
+    using System;
+
     /// <summary>
     /// Defines the AnimationType
     /// </summary>

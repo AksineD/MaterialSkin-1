@@ -104,7 +104,7 @@ namespace MaterialSkinExample
                         Primary.BlueGrey900,
                         Primary.BlueGrey500,
                         Accent.LightBlue200,
-                        TextShade.WHITE);
+                        TextShade.ORANGE);
                     break;
             }
             Invalidate();
@@ -144,11 +144,11 @@ namespace MaterialSkinExample
         {
             var builder = new StringBuilder("Batch operation report:\n\n");
             var random = new Random();
-            //int result = 0;
+            var result = 0;
 
             for (int i = 0; i < 200; i++)
             {
-                int result = random.Next(1000);
+                result = random.Next(1000);
 
                 if (result < 950)
                 {

@@ -1,55 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Text;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
-using MaterialSkin.Controls;
-using MaterialSkin.Properties;
-
-namespace MaterialSkin
+﻿namespace MaterialSkin
 {
+    using MaterialSkin.Controls;
+    using MaterialSkin.Properties;
+    using System;
+    using System.Collections.Generic;
+    using System.Drawing;
+    using System.Drawing.Text;
+    using System.Linq;
+    using System.Runtime.InteropServices;
+    using System.Windows.Forms;
+
     public class MaterialSkinManager
     {
-
-        // not implemented  >>
-        public Color PrimaryColor { get; internal set; }
-        public Brush PrimaryColorBrush { get; internal set; }
-        internal Font ROBOTO_MEDIUM_10;
-
-        internal Brush GetDividersColor()
-        {
-            throw new NotImplementedException();
-        }
-
-        internal Brush GetFlatButtonPressedBackgroundBrush()
-        {
-            throw new NotImplementedException();
-        }
-
-        internal Brush GetDisabledOrHintBrush()
-        {
-            throw new NotImplementedException();
-        }
-
-        internal Brush GetMainTextBrush()
-        {
-            throw new NotImplementedException();
-        }
-
-        internal Color GetApplicationBackgroundColor()
-        {
-            throw new NotImplementedException();
-        }
-
-        internal SolidBrush GetCmsSelectedItemBrush()
-        {
-            throw new NotImplementedException();
-        }
-        
-        // <<
-
         private static MaterialSkinManager _instance;
 
         private readonly List<MaterialForm> _formsToManage = new List<MaterialForm>();
@@ -114,7 +76,7 @@ namespace MaterialSkin
             logicalFonts.Add("textBox14", createLogicalFont("Roboto", 14, NativeTextRenderer.logFontWeight.FW_REGULAR));
             logicalFonts.Add("textBox13", createLogicalFont("Roboto Medium", 13, NativeTextRenderer.logFontWeight.FW_MEDIUM));
             logicalFonts.Add("textBox12", createLogicalFont("Roboto Medium", 12, NativeTextRenderer.logFontWeight.FW_MEDIUM));
-        }       
+        }
 
         // Destructor
         ~MaterialSkinManager()
@@ -286,7 +248,6 @@ namespace MaterialSkin
 
         public Brush BackdropBrush => Theme == Themes.LIGHT ? BACKDROP_LIGHT_BRUSH : BACKDROP_DARK_BRUSH;
 
-        
         // Font Handling
         public enum fontType
         {
@@ -377,7 +338,7 @@ namespace MaterialSkin
 
         private Dictionary<string, FontFamily> RobotoFontFamilies;
 
-        private PrivateFontCollection privateFontCollection = new PrivateFontCollection();       
+        private PrivateFontCollection privateFontCollection = new PrivateFontCollection();
 
         private void addFont(byte[] fontdata)
         {
