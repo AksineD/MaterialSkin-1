@@ -896,10 +896,7 @@
         },
         "runtime": {
           "bin/placeholder/MaterialSkin.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
+        }
       }
     }
   },
@@ -2856,8 +2853,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\CSharpDevelopment\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2865,16 +2861,12 @@
       "projectUniqueName": "F:\\DEV\\GS Soft\\Projects\\src\\MaterialSkin\\MaterialSkinExample\\MaterialSkinExample.csproj",
       "projectName": "MaterialSkinExample",
       "projectPath": "F:\\DEV\\GS Soft\\Projects\\src\\MaterialSkin\\MaterialSkinExample\\MaterialSkinExample.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\CSharpDevelopment\\.nuget\\packages\\",
       "outputPath": "F:\\DEV\\GS Soft\\Projects\\src\\MaterialSkin\\MaterialSkinExample\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\CSharpDevelopment\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
