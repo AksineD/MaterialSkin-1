@@ -11,3 +11,16 @@ F:\DEV\GS Soft\Projects\src\Third-party\MaterialSkin-NET-4.7.2\MaterialSkinExamp
 F:\DEV\GS Soft\Projects\src\Third-party\MaterialSkin-NET-4.7.2\MaterialSkinExample\obj\Debug\MaterialSkinExample.csproj.CopyComplete
 F:\DEV\GS Soft\Projects\src\Third-party\MaterialSkin-NET-4.7.2\MaterialSkinExample\obj\Debug\MaterialSkinExample.exe
 F:\DEV\GS Soft\Projects\src\Third-party\MaterialSkin-NET-4.7.2\MaterialSkinExample\obj\Debug\MaterialSkinExample.pdb
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\bin\Debug\MaterialSkinExample.exe.config
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\bin\Debug\MaterialSkinExample.exe
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\bin\Debug\MaterialSkinExample.pdb
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\bin\Debug\MaterialSkin.dll
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\bin\Debug\MaterialSkin.pdb
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\obj\Debug\MaterialSkinExample.csprojAssemblyReference.cache
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\obj\Debug\MaterialSkinExample.MainForm.resources
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\obj\Debug\MaterialSkinExample.Properties.Resources.resources
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\obj\Debug\MaterialSkinExample.csproj.GenerateResource.cache
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\obj\Debug\MaterialSkinExample.csproj.CoreCompileInputs.cache
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\obj\Debug\MaterialSkinExample.csproj.CopyComplete
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\obj\Debug\MaterialSkinExample.exe
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkinExample\obj\Debug\MaterialSkinExample.pdb

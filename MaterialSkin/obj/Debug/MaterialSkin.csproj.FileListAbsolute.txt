@@ -7,3 +7,12 @@ F:\DEV\GS Soft\Projects\src\Third-party\MaterialSkin-NET-4.7.2\MaterialSkin\obj\
 F:\DEV\GS Soft\Projects\src\Third-party\MaterialSkin-NET-4.7.2\MaterialSkin\obj\Debug\MaterialSkin.csproj.CoreCompileInputs.cache
 F:\DEV\GS Soft\Projects\src\Third-party\MaterialSkin-NET-4.7.2\MaterialSkin\obj\Debug\MaterialSkin.dll
 F:\DEV\GS Soft\Projects\src\Third-party\MaterialSkin-NET-4.7.2\MaterialSkin\obj\Debug\MaterialSkin.pdb
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\bin\Debug\MaterialSkin.dll
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\bin\Debug\MaterialSkin.pdb
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.Controls.FlexibleMaterialForm.resources
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.Controls.MaterialForm.resources
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.Properties.Resources.resources
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.cache
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.csproj.CoreCompileInputs.cache
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.dll
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.pdb
