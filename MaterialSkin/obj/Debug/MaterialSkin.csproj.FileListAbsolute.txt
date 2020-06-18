@@ -16,3 +16,4 @@ F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.csp
 F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.csproj.CoreCompileInputs.cache
 F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.dll
 F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.pdb
+F:\DEV\GS Soft\Projects\src\MaterialSkin\MaterialSkin\obj\Debug\MaterialSkin.csprojAssemblyReference.cache
